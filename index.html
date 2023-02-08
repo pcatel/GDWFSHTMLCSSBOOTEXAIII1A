@@ -14,15 +14,19 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          <!-- Titre de la page -->
 
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container-fluid">
           <img src="img/logo500.png" alt="logo" height="5%" width="5%">
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
             <!-- Elements du menu -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-              <!-- Elements du menu -->
+
               <li class="nav-item">
                 <a class="nav-link active" href="index.html">Accueil</a>
               </li>
@@ -52,156 +56,145 @@
           </div>
         </div>
       </nav>
+
+
       <nav aria-label="breadcrumb">
-        <!-- Déclaration du composant -->
         <ol class="breadcrumb">
-          <!-- Item du fil d'ariane -->
           <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
         </ol>
       </nav>
     </header>
 
     <main>
-      <h1>Running SARAN 45, pour une pratique régulière de la course à pied</h1>
-      <div class="row justify-content-between">
 
-        <!-- aside left-->
-        <div class="col-3" style="background-color: #007BFF;border-radius:15px
-          20px 0 5px;">
-          <aside>
-            <h4 style="color: antiquewhite;"> Courir à Saran</h4>
-            <div class="list-group">
-              <a href="#" class="list-group-item list-group-item-action">Calendriers</a>
-              <a href="#" class="list-group-item list-group-item-action">Inscriptions</a>
-              <a href="#" class="list-group-item list-group-item-action">Résultats</a>
-            </div><br>
-
-            <h4 style="color: antiquewhite;"> Organisations</h4>
-            <div class="list-group">
-              <a href="#" class="list-group-item list-group-item-action">Demande
-                aide technique</a>
-              <a href="#" class="list-group-item list-group-item-action">Lettre
-                aux organisateurs</a>
-            </div>
-            <br>
-
-            <h4 style="color: antiquewhite;"> Liens utiles</h4>
-            <div class="list-group">
-              <a href="#" class="list-group-item list-group-item-action">Fédération
-                régionale</a>
-              <a href="#" class="list-group-item list-group-item-action">Fédération
-                nationale</a>
-            </div>
-          </aside>
+      <div class="container">
+        <div class>
+          <h2>Running SARAN 45, pour une pratique régulière de la course à pied</h2>
+          <br>
         </div>
 
-        <div class="col-9">
-          <div class="row justify-content-between">
+        <!-- L'actualité du club-->
+        <div class="row g-3">
 
-            <!-- column 1 -->
-            <div class="col-4">
+          <div class="col-md-6 col-lg-4 col-xl-4">
+            <h5>L'actualité du club</h5>
+            <div class="card">
+              <!-- Image située en haut -->
+              <img src="img/actusaran45.png" class="card-img-top
+                rounded-3" alt="Running Saran 45">
+              <!-- Corps de la carte -->
+              <div class="card-body">
+                <!-- Titre -->
+                <h5 class="card-title"> L'actualité du club</h5>
+                <!-- Contenu de la carte -->
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Suscipit neque autem
+                  adipisci quos maxime ipsa dolorum unde nemo
+                  et expedita iste rem rerum, impedit,
+                  voluptate praesentium tempore, consectetur
+                  quasi laboriosam!
+                </p>
 
-              <div class="card">
-                <!-- Image située en haut -->
-                <img src="img/actusaran45.png" class="card-img-top
-                  rounded-3" alt="Running Saran 45">
-                <!-- Corps de la carte -->
-                <div class="card-body">
-                  <!-- Titre -->
-                  <h5 class="card-title"> L'actualité du club</h5>
-                  <!-- Contenu de la carte -->
-                  <p class="card-text">
-                    Lorem ipsum, dolor sit amet consectetur
-                    adipisicing elit. Suscipit neque autem
-                    adipisci quos maxime ipsa dolorum unde nemo
-                    et expedita iste rem rerum, impedit,
-                    voluptate praesentium tempore, consectetur
-                    quasi laboriosam!
-                  </p>
-
-                </div>
               </div>
             </div>
-            <!-- column 2 -->
-            <div class="col-4">
-              <!-- Déclaration du composant -->
-              <div class="card">
-                <!-- Image située en haut -->
-                <img src="img/courir a saran.jpg"
-                  class="card-img-top" alt="Courir à Saran">
-                <!-- Corps de la carte -->
-                <div class="card-body">
-                  <!-- Titre -->
-                  <h5 class="card-title"> Courir à Saran : Duo Saranais 2023</h5>
-                  <!-- Contenu de la carte -->
-                  <!-- localisation evenement -->
-                  <p class="card-text">
-                    <div style="background-color:#007BFF;
-                      border-radius: 8px 8px 0 0px;
-                      padding-right: 15px;
-                      padding-left: 15px;
-                      color: aliceblue;">
-                      DUO Saranais 2023<br>
-                      Date : 22-03-2023<br>
-                      Lieu: SARAN (45)<br>
-                      Organisée par : Running SARAN 45
-                    </div>
+          </div>
 
-                    <div style="border: 1px solid;
-                      font-size:small;
-                      padding-left: 15px;">
-                      - Course en ligne le dimanche 22 janvier
-                      2023 sur une distance 9.5 km
-                      principalement sur chemin. <br>
-                      - Duo Hommes, Femmes et Mixte <br>
-                      - Tous les coureurs déguisés seront primés. <br>
-                      - Remise des prixs à 12h suivi d’un apéritif
-                      festif. <br>
-                      - Départ : 10h30 <br>
-                      - Tarif 5 € par personnes soit 10€ par Duo <br>
-                    </p>
-                    <a href="duo saranais 2023.html" class="btn btn-secondary">Lire
-                      la suite...</a> <br><br>
+          <!-- Courir à Saran : Duo Saranais 2023-->
+
+          <div class="col-md-6 col-lg-4 col-xl-4">
+            <h5>Courir à Saran : Duo Saranais 2023</h5>
+            <div class="card">
+              <!-- Image située en haut -->
+              <img src="img/courir a saran.jpg"
+                class="card-img-top" alt="Courir à Saran">
+              <!-- Corps de la carte -->
+              <div class="card-body">
+                <!-- Titre -->
+                <h5 class="card-title"> Courir à Saran : Duo Saranais 2023</h5>
+                <!-- Contenu de la carte -->
+                <!-- localisation evenement -->
+                <p class="card-text">
+                  <div style="background-color:#007BFF;
+                    border-radius: 8px 8px 0 0px;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    color: aliceblue;">
+                    DUO Saranais 2023<br>
+                    Date : 22-03-2023<br>
+                    Lieu: SARAN (45)<br>
+                    Organisée par : Running SARAN 45
                   </div>
+                </p>
+                <div style="border: 1px solid;
+                  font-size:small;
+                  padding-left: 15px;">
+                  - Course en ligne le dimanche 22 janvier
+                  2023 sur une distance 9.5 km
+                  principalement sur chemin. <br>
+                  - Duo Hommes, Femmes et Mixte <br>
+                  - Tous les coureurs déguisés seront primés. <br>
+                  - Remise des prixs à 12h suivi d’un apéritif
+                  festif. <br>
+                  - Départ : 10h30 <br>
+                  - Tarif 5 € par personnes soit 10€ par Duo <br>
+                  <br>
+
+
 
                 </div>
+                <br>
+                <p style="text-align: right;"><a href="duo saranais 2023.html"
+                    target="_blank" class="btn btn-info">+ d'infos</a></p>
               </div>
+
+
+
+
+
             </div>
+          </div>
 
-            <div class="col-4">
-              <!-- column 3 -->
-              <div class="card">
-                <!-- Image située en haut -->
-                <img src="img/GrandFond.jpg"
-                  class="card-img-top" alt="Challenge interclubs Loiret">
-                <!-- Corps de la carte -->
-                <div class="card-body">
-                  <!-- Titre -->
-                  <h5 class="card-title"> Challenge interclubs Loiret</h5>
-                  <!-- Contenu de la carte -->
-                  <p class="card-text">
-                    Lorem ipsum dolor, sit amet
-                    consectetur adipisicing elit.
-                    Reprehenderit iure asperiores
-                    repellat veniam eveniet.
-                    Perspiciatis dicta iusto omnis
-                    aperiam, ducimus veritatis vero
-                    excepturi culpa in aliquid nesciunt
-                    sapiente veniam harum!
-                  </p>
+          <!-- Challenge interclubs Loiret-->
 
-                </div>
+          <div class="col-md-6 col-lg-4 col-xl-4">
+            <h5>Challenge interclubs Loiret</h5>
+            <div class="card">
+              <!-- Image située en haut -->
+              <img src="img/GrandFond.jpg"
+                class="card-img-top" alt="Challenge interclubs Loiret">
+              <!-- Corps de la carte -->
+              <div class="card-body">
+                <!-- Titre -->
+                <h5 class="card-title"> Challenge interclubs Loiret</h5>
+                <!-- Contenu de la carte -->
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet
+                  consectetur adipisicing elit.
+                  Reprehenderit iure asperiores
+                  repellat veniam eveniet.
+                  Perspiciatis dicta iusto omnis
+                  aperiam, ducimus veritatis vero
+                  excepturi culpa in aliquid nesciunt
+                  sapiente veniam harum!
+                </p>
+
               </div>
             </div>
 
 
           </div>
 
-          <footer>
-            <p>Maquette démonstration Pascal CATEL 2023</p>
-          </footer>
+
+
 
         </div>
+        <footer>
+          <p style="text-align: center;">Maquette démonstration Pascal CATEL
+            2023</p>
+        </footer>
+
+
       </main>
     </body>
   </html>
